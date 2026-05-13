@@ -101,7 +101,24 @@ h2{font-size:clamp(28px,3.2vw,44px);line-height:1.08;margin:10px 0 0}
 .card{padding:22px}
 .tag-row{display:flex;flex-wrap:wrap;gap:10px}
 .tag{
-  padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:14px
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:42px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:#fff;
+  font-size:14px;
+  font-weight:700;
+  transition:.2s ease;
+}
+a.tag:hover,
+a.tag:focus-visible{
+  background:var(--dark);
+  border-color:var(--dark);
+  color:#fff;
+  transform:translateY(-1px);
 }
 .cards-3,.cards-4,.cards-2{display:grid;gap:16px}
 .cards-3{grid-template-columns:repeat(3,1fr)}
