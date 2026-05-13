@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://intpack.com.ua/sitemap.xml
